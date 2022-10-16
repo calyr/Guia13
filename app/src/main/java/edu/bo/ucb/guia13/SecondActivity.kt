@@ -9,6 +9,6 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        Toast.makeText(this, session.user, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, session.user.nombre, Toast.LENGTH_SHORT).show()
     }
 }
